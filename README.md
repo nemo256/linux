@@ -121,7 +121,7 @@ Le terminal est particulièrement utile pour les débutants car :
 Historiquement, les premiers ordinateurs n'avaient pas d'interface graphique, et tout était contrôlé par des lignes de commande. Bien que les interfaces graphiques existent aujourd’hui, le terminal reste un outil incontournable pour les utilisateurs avancés et les administrateurs systèmes.
 
 Voici une photo d'un ancien PC utilisé à l'époque des premiers systèmes :  
-![Ancien PC](./images/old_computer.jpg)
+<img src="./images/old_computer.jpg" width="500" height="300" />
 
 ## License 📑
 

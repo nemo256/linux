@@ -89,6 +89,20 @@ Linux est un système d'exploitation open-source créé par Linus Torvalds en 19
 - **Flexibilité** : Linux fonctionne sur une large gamme de matériel, des anciens ordinateurs aux serveurs modernes.
 - **Opportunité d'Apprentissage** : Utiliser Linux permet de mieux comprendre le fonctionnement des systèmes d'exploitation.
 
+# Introduction aux Fondamentaux de Linux 🛠️
+
+## Installation de Linux
+
+L'installation de Linux peut se faire facilement en choisissant une distribution comme [Ubuntu](https://ubuntu.com/download) ou [Debian](https://www.debian.org/distrib/), puis en suivant les instructions d'installation. Vous pouvez aussi utiliser des outils comme [VirtualBox](https://www.virtualbox.org/) pour tester Linux sans modifier votre système actuel. Pour un guide complet sur l'installation d'Ubuntu, consultez la [documentation officielle](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+
+## Découverte de l’Environnement
+
+Une fois installé, vous découvrirez un environnement graphique ou un bureau, selon la distribution choisie. Vous pourrez explorer les applications disponibles et vous familiariser avec les paramètres de votre système.
+
+## Introduction au Terminal
+
+Le terminal est un outil puissant dans Linux, permettant d'exécuter des commandes pour interagir directement avec le système. Apprendre à utiliser le terminal est essentiel pour une gestion avancée et un contrôle complet de votre système Linux.
+
 ## License 📑
 
 - Please read [linux/LICENSE](https://github.com/nemo256/linux/blob/master/LICENSE)

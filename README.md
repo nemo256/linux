@@ -3,7 +3,7 @@
 # `linux`
 
 <h3>
-  Linux is an open-source operating system. This repository provides an introduction to its commands, file system, and basic administration tasks.
+    Linux est un système d'exploitation open-source. Ce dépôt propose une introduction à ses commandes, à son système de fichiers et aux tâches d'administration de base.
 </h3>
 
 <!-- Badges -->
@@ -22,51 +22,58 @@
 
 ## Table of Contents
 
-- [Project Structure 📁](#project-structure)
-- [Install 🔨](#install)
-- [Use 🚀](#use)
-- [Develop ⚙️](#develop)
-- [License 📑](#license)
+# Table des Matières
 
-## Project Structure 📁
+- [Présentation de Linux 🌐](#présentation-de-linux)
 
-```
-linux/
-├── file
-├── file
-├── folder/
-│   ├── folder/
-│   │   ├── file
-│   │   └── file
-│   └── file
-└── file
-```
+  - [Qu’est-ce que Linux ?](#quest-ce-que-linux)
+  - [Pourquoi choisir Linux ?](#pourquoi-choisir-linux)
 
-## Install 🔨
+- [Introduction aux Fondamentaux de Linux 🛠️](#introduction-aux-fondamentaux-de-linux)
 
-- Step 1
+  - [Installation de Linux](#installation-de-linux)
+  - [Découverte de l’Environnement](#découverte-de-lenvironnement)
+  - [Introduction au Terminal](#introduction-au-terminal)
 
-```shell
-$ Command
-```
+- [Commandes Essentielles sous Linux 📜](#commandes-essentielles-sous-linux)
 
-## Use 🚀
+  - [Navigation dans le Système de Fichiers](#navigation-dans-le-système-de-fichiers)
+  - [Gestion des Fichiers et Répertoires](#gestion-des-fichiers-et-répertoires)
+  - [Lecture et Modification des Fichiers](#lecture-et-modification-des-fichiers)
 
-> Hint
+- [Architecture et Organisation du Système de Fichiers 📂](#architecture-et-organisation-du-système-de-fichiers)
 
-- Step 1
+  - [Hiérarchie des Répertoires](#hiérarchie-des-répertoires)
+  - [Permissions et Propriétés des Fichiers](#permissions-et-propriétés-des-fichiers)
 
-```shell
-$ Command
-```
+- [Gestion des Logiciels et des Paquets 📦](#gestion-des-logiciels-et-des-paquets)
 
-## Develop ⚙️
+  - [Installation et Suppression de Logiciels](#installation-et-suppression-de-logiciels)
+  - [Mise à Jour et Maintenance du Système](#mise-à-jour-et-maintenance-du-système)
 
-- Step 1
+- [Administration des Utilisateurs et des Groupes 👤](#administration-des-utilisateurs-et-des-groupes)
 
-```shell
-$ Command
-```
+  - [Création et Gestion des Comptes](#création-et-gestion-des-comptes)
+  - [Gestion des Groupes et des Permissions](#gestion-des-groupes-et-des-permissions)
+
+- [Concepts de Base en Réseaux 🌐](#concepts-de-base-en-réseaux)
+
+  - [Configuration Réseau](#configuration-réseau)
+  - [Commandes Réseaux Courantes](#commandes-réseaux-courantes)
+
+- [Supervision et Analyse du Système 📊](#supervision-et-analyse-du-système)
+
+  - [Gestion des Processus](#gestion-des-processus)
+  - [Surveillance des Performances](#surveillance-des-performances)
+
+- [Introduction au Scripting Shell 💻](#introduction-au-scripting-shell)
+
+  - [Écriture de Scripts Simples](#écriture-de-scripts-simples)
+  - [Utilisation des Variables et Boucles](#utilisation-des-variables-et-boucles)
+
+- [Ateliers Pratiques et Applications Réelles 🛠️](#ateliers-pratiques-et-applications-réelles)
+  - [Exercices Dirigés](#exercices-dirigés)
+  - [Création d’un Projet Linux Personnel](#création-dun-projet-linux-personnel)
 
 ## License 📑
 

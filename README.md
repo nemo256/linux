@@ -81,13 +81,13 @@ Linux est un système d'exploitation open-source créé par Linus Torvalds en 19
 
 ## Pourquoi choisir Linux ?
 
-- **Open Source et Gratuit** : Linux est gratuit à utiliser, à modifier et à distribuer, ce qui permet à chacun de l’adapter à ses besoins.
-- **Stabilité et Fiabilité** : Linux est reconnu pour sa stabilité, ce qui en fait un choix idéal pour les serveurs et les systèmes nécessitant une disponibilité continue. Cependant, certaines distributions Linux, comme Arch Linux, peuvent ne pas être aussi stables, car elles privilégient les dernières mises à jour. En revanche, des distributions comme Debian sont largement reconnues pour leur stabilité et leur fiabilité, adaptées aux environnements critiques.
-- **Sécurité** : Linux offre une sécurité robuste grâce à des permissions strictes, des mises à jour régulières et un contrôle d'accès finement configuré. Cependant, la sécurité peut aussi dépendre de l'utilisateur. Un mauvais usage des droits administratifs peut compromettre un système, même sous Linux.
-- **Communauté et Support** : La communauté Linux est très active et vaste, offrant un support continu à travers des forums, des guides et des documentations. Comparée aux communautés d'autres systèmes d'exploitation comme Windows ou macOS, la communauté Linux se distingue par son approche collaborative, ouverte et orientée vers l'innovation. Les utilisateurs peuvent trouver de l'aide sur des ressources comme [Arch Wiki](https://wiki.archlinux.org) pour Arch Linux et [Debian Documentation](https://www.debian.org/doc) pour Debian.
-- **Meilleur choix pour les Développeurs** : Pour les développeurs, Linux est souvent la meilleure option en raison de sa compatibilité avec une multitude d'outils de développement, de sa flexibilité et de son accès direct à des ressources système. Linux permet une personnalisation poussée et dispose d'un environnement puissant pour le développement de logiciels, de serveurs et d'applications web.
-- **Flexibilité** : Il peut fonctionner sur une large gamme de matériel, des anciens ordinateurs aux serveurs modernes.
-- **Opportunité d'Apprentissage** : Utiliser Linux permet d'approfondir sa compréhension des systèmes d'exploitation et de la gestion de système.
+- **Open Source et Gratuit** : Linux est gratuit et modifiable, ce qui permet de l'adapter à ses besoins.
+- **Stabilité et Fiabilité** : Linux est stable, mais certaines distributions comme Arch Linux peuvent être moins stables, contrairement à Debian qui est reconnu pour sa fiabilité.
+- **Sécurité** : Linux offre une sécurité robuste, mais cela dépend aussi de l'utilisateur et de la gestion des permissions.
+- **Communauté et Support** : La communauté Linux est active et propose des ressources utiles comme [Arch Wiki](https://wiki.archlinux.org) et [Debian Wiki](https://wiki.debian.org) pour l'aide et la documentation.
+- **Meilleur choix pour les Développeurs** : Linux est très apprécié des développeurs grâce à ses outils et sa flexibilité.
+- **Flexibilité** : Linux fonctionne sur une large gamme de matériel, des anciens ordinateurs aux serveurs modernes.
+- **Opportunité d'Apprentissage** : Utiliser Linux permet de mieux comprendre le fonctionnement des systèmes d'exploitation.
 
 ## License 📑
 

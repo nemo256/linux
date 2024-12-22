@@ -73,6 +73,21 @@
   - [Exercices Dirigés](#exercices-dirigés)
   - [Création d’un Projet Linux Personnel](#création-dun-projet-linux-personnel)
 
+# Présentation de Linux 🌐
+
+## Qu’est-ce que Linux ?
+
+Linux est un système d'exploitation open-source basé sur l'architecture Unix. Créé par Linus Torvalds en 1991, il est utilisé dans de nombreux domaines, des serveurs aux appareils mobiles.
+
+## Pourquoi choisir Linux ?
+
+- **Open Source et Gratuit** : Linux est gratuit à utiliser, à modifier et à distribuer, ce qui permet à chacun de l’adapter à ses besoins.
+- **Stabilité et Fiabilité** : Linux est reconnu pour sa stabilité, ce qui en fait un choix idéal pour les serveurs et les systèmes nécessitant une disponibilité continue.
+- **Sécurité** : Grâce à des permissions strictes et des mises à jour régulières, Linux offre une sécurité robuste.
+- **Flexibilité** : Il peut fonctionner sur une large gamme de matériel, des anciens ordinateurs aux serveurs modernes.
+- **Communauté et Support** : La grande communauté Linux fournit une aide précieuse, des forums aux documentations détaillées.
+- **Opportunité d'Apprentissage** : Utiliser Linux permet d'approfondir sa compréhension des systèmes d'exploitation et de la gestion de système.
+
 ## License 📑
 
 - Please read [linux/LICENSE](https://github.com/nemo256/linux/blob/master/LICENSE)

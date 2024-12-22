@@ -110,7 +110,18 @@ Une fois installé, vous découvrirez un environnement graphique ou un bureau, s
 
 ## Introduction au Terminal
 
-Le terminal est un outil puissant dans Linux, permettant d'exécuter des commandes pour interagir directement avec le système. Apprendre à utiliser le terminal est essentiel pour une gestion avancée et un contrôle complet de votre système Linux.
+Le terminal est un outil fondamental dans Linux, permettant d'exécuter des commandes pour interagir directement avec le système. Il offre une méthode rapide et efficace de contrôler le système, surtout pour les tâches répétitives ou avancées. Contrairement aux interfaces graphiques, où vous cliquez pour effectuer des actions, le terminal permet de tout faire via des lignes de commande.
+
+Le terminal est particulièrement utile pour les débutants car :
+
+- **Simplicité** : Il permet d’accomplir de nombreuses tâches avec quelques commandes simples.
+- **Puissance** : Certaines opérations complexes, comme la gestion de fichiers ou l'installation de logiciels, sont plus rapides et plus faciles à réaliser via le terminal.
+- **Contrôle total** : Le terminal offre un contrôle précis du système, ce qui est essentiel pour l'administration et la gestion des fichiers.
+
+Historiquement, les premiers ordinateurs n'avaient pas d'interface graphique, et tout était contrôlé par des lignes de commande. Bien que les interfaces graphiques existent aujourd’hui, le terminal reste un outil incontournable pour les utilisateurs avancés et les administrateurs systèmes.
+
+Voici une photo d'un ancien PC utilisé à l'époque des premiers systèmes :  
+![Ancien PC](./images/old_computer.jpg)
 
 ## License 📑
 

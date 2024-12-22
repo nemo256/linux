@@ -33,16 +33,16 @@
   - [Découverte de l’Environnement](#découverte-de-lenvironnement)
   - [Introduction au Terminal](#introduction-au-terminal)
 
-- [Architecture et Organisation du Système de Fichiers 📂](#architecture-et-organisation-du-système-de-fichiers)
-
-  - [Hiérarchie des Répertoires](#hiérarchie-des-répertoires)
-  - [Permissions et Propriétés des Fichiers](#permissions-et-propriétés-des-fichiers)
-
 - [Commandes Essentielles sous Linux 📜](#commandes-essentielles-sous-linux)
 
   - [Navigation dans le Système de Fichiers](#navigation-dans-le-système-de-fichiers)
   - [Gestion des Fichiers et Répertoires](#gestion-des-fichiers-et-répertoires)
   - [Lecture et Modification des Fichiers](#lecture-et-modification-des-fichiers)
+
+- [Architecture et Organisation du Système de Fichiers 📂](#architecture-et-organisation-du-système-de-fichiers)
+
+  - [Hiérarchie des Répertoires](#hiérarchie-des-répertoires)
+  - [Permissions et Propriétés des Fichiers](#permissions-et-propriétés-des-fichiers)
 
 - [Gestion des Logiciels et des Paquets 📦](#gestion-des-logiciels-et-des-paquets)
 
@@ -191,6 +191,61 @@ Voici une photo d'un ancien PC utilisé à l'époque des premiers systèmes :
 
 **Note :**  
 Le flag **`--help`** (ou **`-h`**) est un flag très courant dans de nombreuses commandes Linux. Il affiche l’aide et les options disponibles pour une commande spécifique. Exemple : `ls --help` ou `ps --help`.
+
+# Architecture et Organisation du Système de Fichiers 📂
+
+## Hiérarchie des Répertoires
+
+> "Le système de fichiers Linux est organisé sous forme d'une hiérarchie avec la racine `/` à la base."
+
+- **`/`** : Racine du système.
+- **`/home`** : Répertoires personnels des utilisateurs.
+- **`/bin`** : Commandes essentielles, nécessaires au système.
+- **`/etc`** : Fichiers de configuration système, comme les configurations réseau ou les paramètres de démarrage.
+- **`/var`** : Contient les fichiers variables, tels que les journaux système, les fichiers temporaires, et les données des applications.
+- **`/usr`** : Contient des programmes et des bibliothèques partagées qui ne sont pas essentiels au démarrage du système.
+- **`/tmp`** : Répertoire pour les fichiers temporaires utilisés par les applications et le système.
+- **`/dev`** : Contient les fichiers de périphériques qui représentent des ressources matérielles, comme des disques durs et des imprimantes.
+- **`/mnt`** : Points de montage temporaires où vous pouvez monter des partitions ou des périphériques externes.
+- **`/opt`** : Utilisé pour les logiciels tiers installés manuellement, souvent en dehors du système de gestion de paquets de la distribution.
+
+## Permissions et Propriétés des Fichiers
+
+> "Linux utilise un système de permissions pour contrôler l'accès aux fichiers."
+
+Les permissions d'un fichier ou d'un répertoire sont attribuées à trois types d'utilisateurs : le propriétaire, le groupe et les autres utilisateurs. Voici les types de permissions :
+
+- **`r`** : Lecture (read) — Permet de lire le fichier.
+- **`w`** : Écriture (write) — Permet de modifier ou supprimer le fichier.
+- **`x`** : Exécution (execute) — Permet d'exécuter le fichier.
+
+### Système Octal des Permissions
+
+Les permissions peuvent être représentées dans le système octal, qui est une méthode standard pour exprimer les permissions :
+
+- **`rwx`** = 7 (lecture + écriture + exécution)
+- **`rw-`** = 6 (lecture + écriture)
+- **`r--`** = 4 (lecture seulement)
+- **`wx-`** = 3 (exécution + écriture)
+- **`x--`** = 1 (exécution seulement)
+- **`---`** = 0 (aucune permission)
+
+Exemples d'utilisation :
+
+- **`chmod 755 fichier`** : Propriétaire (`rwx` = 7), groupe (`rx` = 5), autres (`rx` = 5).
+- **`chmod 644 fichier`** : Propriétaire (`rw-` = 6), groupe (`r--` = 4), autres (`r--` = 4).
+
+### Propriétaires et Groupes
+
+- **Propriétaire** : Utilisateur qui possède le fichier.
+- **Groupe** : Groupe d'utilisateurs auquel le fichier appartient.
+- **Autres** : Tous les autres utilisateurs.
+
+### Commande `chmod`
+
+La commande **`chmod`** permet de modifier les permissions d'un fichier ou d'un répertoire.
+
+- Exemple : **`chmod 755 fichier`** donne les permissions adéquates à chaque utilisateur.
 
 ## License 📑
 

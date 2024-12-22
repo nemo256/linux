@@ -1,6 +1,6 @@
 <div align="center">
 
-# `bp`
+# `linux`
 
 <h3>
   Personal boilerplate
@@ -8,9 +8,9 @@
 
 <!-- Badges -->
 
-![GitHub Repo stars](https://img.shields.io/github/stars/nemo256/bp?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/nemo256/linux?style=for-the-badge)
 ![Maintenance](https://shields.io/maintenance/yes/2023?style=for-the-badge)
-![License](https://shields.io/github/license/nemo256/bp?style=for-the-badge)
+![License](https://shields.io/github/license/nemo256/linux?style=for-the-badge)
 
 <!-- Demo image -->
 
@@ -31,7 +31,7 @@
 ## Project Structure 📁
 
 ```
-bp/
+linux/
 ├── file
 ├── file
 ├── folder/
@@ -70,4 +70,4 @@ $ Command
 
 ## License 📑
 
-- Please read [bp/LICENSE](https://github.com/nemo256/bp/blob/master/LICENSE)
+- Please read [linux/LICENSE](https://github.com/nemo256/linux/blob/master/LICENSE)

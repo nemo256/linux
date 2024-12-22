@@ -20,9 +20,7 @@
 
 <!-- TABLE OF CONTENTS -->
 
-## Table of Contents
-
-# Table des Matières
+## Table des Matières
 
 - [Présentation de Linux 🌐](#présentation-de-linux)
 

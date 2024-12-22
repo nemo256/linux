@@ -164,9 +164,7 @@ Sous Linux, plusieurs commandes permettent de lire et modifier le contenu des fi
 - **`grep`** : Recherche une chaîne de caractères dans un fichier.
 - **`sed`** : Permet de modifier des fichiers de manière non interactive.
 
-# Commandes Essentielles sous Linux 📜
-
-## Commandes Utilitaires et Flags Communs
+## Commandes Utiles
 
 | **Commande**  | **Description**                                                                        |
 | ------------- | -------------------------------------------------------------------------------------- |

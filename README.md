@@ -102,7 +102,7 @@ L'installation de Linux peut être simple et se faire en plusieurs étapes. Voic
 
 Voici deux images utiles pour visualiser l'installation :
 
-<img src="./images/ubuntu.png" width="300" height="200" /> + <img src="./images/virtualbox.png" width="300" height="200" />
+<img src="./images/ubuntu.png" width="300" height="200" /> <span style="font-size: 40px;">+</span> <img src="./images/virtualbox.png" width="300" height="200" />
 
 ## Découverte de l’Environnement
 

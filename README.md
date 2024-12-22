@@ -93,7 +93,16 @@ Linux est un système d'exploitation open-source créé par Linus Torvalds en 19
 
 ## Installation de Linux
 
-L'installation de Linux peut se faire facilement en choisissant une distribution comme [Ubuntu](https://ubuntu.com/download) ou [Debian](https://www.debian.org/distrib/), puis en suivant les instructions d'installation. Vous pouvez aussi utiliser des outils comme [VirtualBox](https://www.virtualbox.org/) pour tester Linux sans modifier votre système actuel. Pour un guide complet sur l'installation d'Ubuntu, consultez la [documentation officielle](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview).
+L'installation de Linux peut être simple et se faire en plusieurs étapes. Voici comment procéder :
+
+1. **Choisissez une distribution Linux** : Nous vous recommandons [Ubuntu](https://ubuntu.com/download) pour les débutants. C’est une distribution populaire avec une grande communauté.
+2. **Téléchargez l’image ISO** : Allez sur le site d'Ubuntu et téléchargez le fichier ISO pour commencer l'installation.
+3. **Préparez votre matériel** : Vous pouvez installer Ubuntu directement sur votre ordinateur ou utiliser une machine virtuelle comme [VirtualBox](https://www.virtualbox.org/).
+4. **Suivez les instructions d'installation** : Si vous choisissez Ubuntu, consultez le [guide officiel d'installation](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview) pour vous aider tout au long du processus.
+
+Voici deux images utiles pour visualiser l'installation :
+
+![Ubuntu](./images/ubuntu.png) + ![VirtualBox](./images/virtualbox.png)
 
 ## Découverte de l’Environnement
 

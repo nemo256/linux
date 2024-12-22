@@ -123,6 +123,92 @@ Historiquement, les premiers ordinateurs n'avaient pas d'interface graphique, et
 Voici une photo d'un ancien PC utilisé à l'époque des premiers systèmes :  
 <img src="./images/old_computer.jpg" width="600" height="500" />
 
+# Commandes Essentielles sous Linux 📜
+
+## Navigation dans le Système de Fichiers
+
+Sous Linux, le système de fichiers est structuré en une hiérarchie de répertoires. Pour naviguer dans cette structure, vous devez connaître certaines commandes de base.
+
+- **`cd`** : Change de répertoire.
+  - **`cd ~`** : Va directement dans le répertoire personnel de l'utilisateur.
+  - **`cd ..`** : Reviens au répertoire parent.
+  - **`cd /`** : Va à la racine du système de fichiers.
+- **`pwd`** : Affiche le chemin complet du répertoire courant.
+- **`ls`** : Liste les fichiers et répertoires présents dans le répertoire courant.
+  - **`ls -l`** : Affiche la liste détaillée avec des informations supplémentaires (comme les permissions, la taille).
+  - **`ls -a`** : Affiche les fichiers cachés.
+
+## Gestion des Fichiers et Répertoires
+
+La gestion des fichiers et répertoires est une tâche courante sous Linux. Voici les commandes de base pour travailler avec les fichiers et répertoires :
+
+- **`cp`** : Copie un fichier ou un répertoire.
+- **`mv`** : Déplace ou renomme un fichier ou un répertoire.
+- **`rm`** : Supprime un fichier.
+  - **`rm -r`** : Supprime un répertoire et son contenu.
+- **`mkdir`** : Crée un nouveau répertoire.
+- **`rmdir`** : Supprime un répertoire vide.
+- **`touch`** : Crée un fichier vide ou met à jour un fichier existant.
+
+## Lecture et Modification des Fichiers
+
+Sous Linux, plusieurs commandes permettent de lire et modifier le contenu des fichiers :
+
+- **`cat`** : Affiche le contenu d’un fichier.
+- **`nano`** : Éditeur de texte simple en ligne de commande.
+- **`vim`** : Éditeur de texte avancé.
+- **`less`** : Permet de lire le contenu d’un fichier page par page.
+- **`head`** : Affiche les premières lignes d’un fichier.
+- **`tail`** : Affiche les dernières lignes d’un fichier.
+  - **`tail -f`** : Affiche en temps réel les ajouts à la fin d’un fichier.
+- **`grep`** : Recherche une chaîne de caractères dans un fichier.
+- **`sed`** : Permet de modifier des fichiers de manière non interactive.
+
+# Commandes Essentielles sous Linux 📜
+
+## Commandes Utilitaires et Flags Communs
+
+| **Commande**            | **Description**                                                                        |
+| ----------------------- | -------------------------------------------------------------------------------------- |
+| **`cd`**                | Change de répertoire.                                                                  |
+| **`pwd`**               | Affiche le chemin du répertoire courant.                                               |
+| **`ls`**                | Liste les fichiers et répertoires dans le répertoire courant.                          |
+| **`cp`**                | Copie un fichier ou un répertoire.                                                     |
+| **`mv`**                | Déplace ou renomme un fichier ou répertoire.                                           |
+| **`rm`**                | Supprime un fichier.                                                                   |
+| **`mkdir`**             | Crée un nouveau répertoire.                                                            |
+| **`rmdir`**             | Supprime un répertoire vide.                                                           |
+| **`touch`**             | Crée un fichier vide ou met à jour la date d'un fichier.                               |
+| **`cat`**               | Affiche le contenu d’un fichier.                                                       |
+| **`nano`**              | Éditeur de texte simple en ligne de commande.                                          |
+| **`vim`**               | Éditeur de texte avancé.                                                               |
+| **`less`**              | Affiche le contenu d’un fichier page par page.                                         |
+| **`head`**              | Affiche les premières lignes d’un fichier.                                             |
+| **`tail`**              | Affiche les dernières lignes d’un fichier.                                             |
+| **`grep`**              | Recherche une chaîne de texte dans un fichier.                                         |
+| **`sed`**               | Modifie des fichiers de manière non interactive.                                       |
+| **`man`**               | Affiche le manuel d'une commande.                                                      |
+| **`--help`** / **`-h`** | Affiche l’aide pour une commande spécifique.                                           |
+| **`ps`**                | Affiche les processus en cours d'exécution.                                            |
+| **`top`**               | Affiche en temps réel les processus en cours.                                          |
+| **`free`**              | Affiche l’utilisation de la mémoire.                                                   |
+| **`df`**                | Affiche l’espace disque utilisé et disponible.                                         |
+| **`du`**                | Affiche la taille des fichiers ou répertoires.                                         |
+| **`chmod`**             | Change les permissions d’un fichier.                                                   |
+| **`chown`**             | Change le propriétaire d’un fichier.                                                   |
+| **`chgrp`**             | Change le groupe d’un fichier.                                                         |
+| **`tar`**               | Crée ou extrait des archives (par exemple `.tar`, `.tar.gz`).                          |
+| **`wget`**              | Télécharge des fichiers à partir du web.                                               |
+| **`curl`**              | Transfère des données depuis ou vers un serveur.                                       |
+| **`kill`**              | Envoie un signal pour arrêter un processus.                                            |
+| **`exit`**              | Quitte le terminal ou un shell.                                                        |
+| **`history`**           | Affiche l'historique des commandes utilisées.                                          |
+| **`alias`**             | Crée un raccourci pour une commande.                                                   |
+| **`uname`**             | Affiche des informations sur le système d’exploitation.                                |
+| **`uptime`**            | Affiche depuis combien de temps le système est en fonctionnement.                      |
+| **`whoami`**            | Affiche le nom de l'utilisateur courant.                                               |
+| **`htop`**              | Version améliorée de `top`, pour afficher les processus avec une interface plus riche. |
+
 ## License 📑
 
 - Please read [linux/LICENSE](https://github.com/nemo256/linux/blob/master/LICENSE)

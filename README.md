@@ -292,24 +292,30 @@ Voici comment utiliser les gestionnaires de paquets pour installer et supprimer 
 
 ```bash
 sudo apt install curl
+```
 
 ## Mise à Jour et Maintenance du Système
+
 > "Mettre à jour votre système garantit que vous avez les dernières fonctionnalités et corrections de sécurité."
 
 Il est crucial de maintenir votre système à jour. Voici comment effectuer les mises à jour et la maintenance sur différentes distributions :
 
 ### Sur les systèmes basés sur Debian (comme Ubuntu) :
+
 - `sudo apt-get update` : Met à jour la liste des paquets disponibles.
 - `sudo apt-get upgrade` : Met à jour tous les paquets installés vers leur dernière version.
 - `sudo apt-get dist-upgrade` : Effectue une mise à jour complète du système, y compris les changements de dépendances et les mises à jour majeures.
 
 ### Sur les systèmes basés sur Red Hat (comme Fedora ou CentOS) :
+
 - `sudo dnf update` : Met à jour tous les paquets installés.
 
 ### Sur les systèmes basés sur Arch (comme Arch Linux) :
+
 - `sudo pacman -Syu` : Met à jour tous les paquets installés.
 
 ### Maintenance du système
+
 - **Nettoyage des paquets inutilisés** :
   - Sur Debian/Ubuntu : `sudo apt-get autoremove`.
   - Sur Red Hat/Fedora : `sudo dnf autoremove`.
@@ -318,13 +324,18 @@ Il est crucial de maintenir votre système à jour. Voici comment effectuer les 
 Cela permet de supprimer les paquets qui ne sont plus nécessaires et de libérer de l'espace disque.
 
 ### Vérification de l'espace disque :
+
 - `df -h` : Affiche l'utilisation de l'espace disque de toutes les partitions.
 - `du -sh <directory>` : Affiche l'espace utilisé par un répertoire spécifique.
 
 Enfin, pour vérifier les journaux système, ce qui peut être utile pour le dépannage et la gestion du système :
+
 - `journalctl` : Affiche les journaux système.
 
 ## License 📑
 
 - Please read [linux/LICENSE](https://github.com/nemo256/linux/blob/master/LICENSE)
+
+```
+
 ```

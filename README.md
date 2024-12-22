@@ -241,6 +241,8 @@ Exemples d'utilisation :
 - **Groupe** : Groupe d'utilisateurs auquel le fichier appartient.
 - **Autres** : Tous les autres utilisateurs.
 
+<img src="./images/user_group_other.png" width="400" height="400" />
+
 ### Commande `chmod`
 
 La commande **`chmod`** permet de modifier les permissions d'un fichier ou d'un répertoire.

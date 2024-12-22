@@ -33,16 +33,16 @@
   - [Découverte de l’Environnement](#découverte-de-lenvironnement)
   - [Introduction au Terminal](#introduction-au-terminal)
 
+- [Architecture et Organisation du Système de Fichiers 📂](#architecture-et-organisation-du-système-de-fichiers)
+
+  - [Hiérarchie des Répertoires](#hiérarchie-des-répertoires)
+  - [Permissions et Propriétés des Fichiers](#permissions-et-propriétés-des-fichiers)
+
 - [Commandes Essentielles sous Linux 📜](#commandes-essentielles-sous-linux)
 
   - [Navigation dans le Système de Fichiers](#navigation-dans-le-système-de-fichiers)
   - [Gestion des Fichiers et Répertoires](#gestion-des-fichiers-et-répertoires)
   - [Lecture et Modification des Fichiers](#lecture-et-modification-des-fichiers)
-
-- [Architecture et Organisation du Système de Fichiers 📂](#architecture-et-organisation-du-système-de-fichiers)
-
-  - [Hiérarchie des Répertoires](#hiérarchie-des-répertoires)
-  - [Permissions et Propriétés des Fichiers](#permissions-et-propriétés-des-fichiers)
 
 - [Gestion des Logiciels et des Paquets 📦](#gestion-des-logiciels-et-des-paquets)
 

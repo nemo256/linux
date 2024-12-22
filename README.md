@@ -241,7 +241,7 @@ Exemples d'utilisation :
 - **Groupe** : Groupe d'utilisateurs auquel le fichier appartient.
 - **Autres** : Tous les autres utilisateurs.
 
-<img src="./images/user_group_other.png" width="400" height="400" />
+<img src="./images/user_group_other.png" width="500" height="300" />
 
 ### Commande `chmod`
 

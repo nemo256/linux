@@ -127,7 +127,7 @@ Voici une photo d'un ancien PC utilisé à l'époque des premiers systèmes :
 
 ## Navigation dans le Système de Fichiers
 
-Sous Linux, le système de fichiers est structuré en une hiérarchie de répertoires. Pour naviguer dans cette structure, vous devez connaître certaines commandes de base.
+> "Le système de fichiers sous Linux est organisé en répertoires hiérarchiques. Utilisez ces commandes pour naviguer facilement."
 
 - **`cd`** : Change de répertoire.
   - **`cd ~`** : Va directement dans le répertoire personnel de l'utilisateur.
@@ -140,7 +140,7 @@ Sous Linux, le système de fichiers est structuré en une hiérarchie de répert
 
 ## Gestion des Fichiers et Répertoires
 
-La gestion des fichiers et répertoires est une tâche courante sous Linux. Voici les commandes de base pour travailler avec les fichiers et répertoires :
+> "Ces commandes vous permettent de manipuler des fichiers et répertoires sous Linux."
 
 - **`cp`** : Copie un fichier ou un répertoire.
 - **`mv`** : Déplace ou renomme un fichier ou un répertoire.
@@ -152,7 +152,7 @@ La gestion des fichiers et répertoires est une tâche courante sous Linux. Voic
 
 ## Lecture et Modification des Fichiers
 
-Sous Linux, plusieurs commandes permettent de lire et modifier le contenu des fichiers :
+> "Ces commandes permettent de lire et modifier les fichiers sous Linux."
 
 - **`cat`** : Affiche le contenu d’un fichier.
 - **`nano`** : Éditeur de texte simple en ligne de commande.

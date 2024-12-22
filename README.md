@@ -168,46 +168,31 @@ Sous Linux, plusieurs commandes permettent de lire et modifier le contenu des fi
 
 ## Commandes Utilitaires et Flags Communs
 
-| **Commande**            | **Description**                                                                        |
-| ----------------------- | -------------------------------------------------------------------------------------- |
-| **`cd`**                | Change de répertoire.                                                                  |
-| **`pwd`**               | Affiche le chemin du répertoire courant.                                               |
-| **`ls`**                | Liste les fichiers et répertoires dans le répertoire courant.                          |
-| **`cp`**                | Copie un fichier ou un répertoire.                                                     |
-| **`mv`**                | Déplace ou renomme un fichier ou répertoire.                                           |
-| **`rm`**                | Supprime un fichier.                                                                   |
-| **`mkdir`**             | Crée un nouveau répertoire.                                                            |
-| **`rmdir`**             | Supprime un répertoire vide.                                                           |
-| **`touch`**             | Crée un fichier vide ou met à jour la date d'un fichier.                               |
-| **`cat`**               | Affiche le contenu d’un fichier.                                                       |
-| **`nano`**              | Éditeur de texte simple en ligne de commande.                                          |
-| **`vim`**               | Éditeur de texte avancé.                                                               |
-| **`less`**              | Affiche le contenu d’un fichier page par page.                                         |
-| **`head`**              | Affiche les premières lignes d’un fichier.                                             |
-| **`tail`**              | Affiche les dernières lignes d’un fichier.                                             |
-| **`grep`**              | Recherche une chaîne de texte dans un fichier.                                         |
-| **`sed`**               | Modifie des fichiers de manière non interactive.                                       |
-| **`man`**               | Affiche le manuel d'une commande.                                                      |
-| **`--help`** / **`-h`** | Affiche l’aide pour une commande spécifique.                                           |
-| **`ps`**                | Affiche les processus en cours d'exécution.                                            |
-| **`top`**               | Affiche en temps réel les processus en cours.                                          |
-| **`free`**              | Affiche l’utilisation de la mémoire.                                                   |
-| **`df`**                | Affiche l’espace disque utilisé et disponible.                                         |
-| **`du`**                | Affiche la taille des fichiers ou répertoires.                                         |
-| **`chmod`**             | Change les permissions d’un fichier.                                                   |
-| **`chown`**             | Change le propriétaire d’un fichier.                                                   |
-| **`chgrp`**             | Change le groupe d’un fichier.                                                         |
-| **`tar`**               | Crée ou extrait des archives (par exemple `.tar`, `.tar.gz`).                          |
-| **`wget`**              | Télécharge des fichiers à partir du web.                                               |
-| **`curl`**              | Transfère des données depuis ou vers un serveur.                                       |
-| **`kill`**              | Envoie un signal pour arrêter un processus.                                            |
-| **`exit`**              | Quitte le terminal ou un shell.                                                        |
-| **`history`**           | Affiche l'historique des commandes utilisées.                                          |
-| **`alias`**             | Crée un raccourci pour une commande.                                                   |
-| **`uname`**             | Affiche des informations sur le système d’exploitation.                                |
-| **`uptime`**            | Affiche depuis combien de temps le système est en fonctionnement.                      |
-| **`whoami`**            | Affiche le nom de l'utilisateur courant.                                               |
-| **`htop`**              | Version améliorée de `top`, pour afficher les processus avec une interface plus riche. |
+| **Commande**  | **Description**                                                                        |
+| ------------- | -------------------------------------------------------------------------------------- |
+| **`man`**     | Affiche le manuel d'une commande.                                                      |
+| **`ps`**      | Affiche les processus en cours d'exécution.                                            |
+| **`top`**     | Affiche en temps réel les processus en cours.                                          |
+| **`free`**    | Affiche l’utilisation de la mémoire.                                                   |
+| **`df`**      | Affiche l’espace disque utilisé et disponible.                                         |
+| **`du`**      | Affiche la taille des fichiers ou répertoires.                                         |
+| **`chmod`**   | Change les permissions d’un fichier.                                                   |
+| **`chown`**   | Change le propriétaire d’un fichier.                                                   |
+| **`chgrp`**   | Change le groupe d’un fichier.                                                         |
+| **`tar`**     | Crée ou extrait des archives (par exemple `.tar`, `.tar.gz`).                          |
+| **`wget`**    | Télécharge des fichiers à partir du web.                                               |
+| **`curl`**    | Transfère des données depuis ou vers un serveur.                                       |
+| **`kill`**    | Envoie un signal pour arrêter un processus.                                            |
+| **`exit`**    | Quitte le terminal ou un shell.                                                        |
+| **`history`** | Affiche l'historique des commandes utilisées.                                          |
+| **`alias`**   | Crée un raccourci pour une commande.                                                   |
+| **`uname`**   | Affiche des informations sur le système d’exploitation.                                |
+| **`uptime`**  | Affiche depuis combien de temps le système est en fonctionnement.                      |
+| **`whoami`**  | Affiche le nom de l'utilisateur courant.                                               |
+| **`htop`**    | Version améliorée de `top`, pour afficher les processus avec une interface plus riche. |
+
+**Note :**  
+Le flag **`--help`** (ou **`-h`**) est un flag très courant dans de nombreuses commandes Linux. Il affiche l’aide et les options disponibles pour une commande spécifique. Exemple : `ls --help` ou `ps --help`.
 
 ## License 📑
 

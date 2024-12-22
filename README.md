@@ -3,7 +3,7 @@
 # `linux`
 
 <h3>
-  Personal boilerplate
+  Linux is an open-source operating system. This repository provides an introduction to its commands, file system, and basic administration tasks.
 </h3>
 
 <!-- Badges -->
